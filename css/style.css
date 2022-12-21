@@ -1,0 +1,37 @@
+/* header */
+
+.head-hidden-menu{
+	display: none;
+}
+
+.header-main {
+	color: white;
+	background-color: #0084fd;
+	/* z-index: 3; */
+	position: fixed;
+	width: 100%;
+}
+
+.header-nav {
+	display: flex;
+	flex-grow: 1;
+	line-height: 30px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+.header-nav>* {
+	padding: 5px 5px;
+	padding: 0.5rem;
+}
+
+.header-links ul li {
+	display: inline;
+}
+
+.logo {
+	max-height: 2rem;
+}
+
+/* main */

@@ -1,0 +1,20 @@
+/* Utils */
+/* container */
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.small-container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+/* clarfix  */
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+/* bottoni */

@@ -1,0 +1,27 @@
+/* meta query */
+
+/* tablet settings */
+@media screen and (max-width: 768px) {
+    .header-links ul li a{
+        display: none;
+    }
+
+    .head-hidden-menu{
+        display: block;
+    }
+    
+}
+
+
+/* smartphone setting */
+
+@media screen and (max-width: 480px) {
+    .header-links ul li a {
+            display: none;
+        }
+    
+        .head-hidden-menu {
+            display: block;
+        }
+
+}
