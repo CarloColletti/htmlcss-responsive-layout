@@ -48,6 +48,13 @@
 	border-radius: 1rem;
 }
 
+.col-card-large{
+	width: calc(100% / 3 * 2 - 1.8rem);
+	height: 300px;
+	background-color: #b5ddff;
+	border-radius: 1rem;
+}
+
 /* quadrato placeholder*/
 
 .placeholder-square{
