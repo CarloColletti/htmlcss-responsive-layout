@@ -23,12 +23,39 @@
 /* smartphone setting */
 
 @media screen and (max-width: 480px) {
+    /* container  */
+    .container{
+        width: 100%;
+    }
+    /* header  */
     .header-links ul li a {
-            display: none;
-        }
+        display: none;
+    }
     
-        .head-hidden-menu {
-            display: block;
-        }
+    .head-hidden-menu {
+        display: block;
+    }
+
+    /* col main sez 1 */
+
+    .col-card,
+    .col-card-large {
+        display: flex;
+        width: 100%;
+    }
+
+    /* col sez 2 */
+
+    
+
+    /* partners section  */
+
+
+    /* about us  */
+    
+
+
+
+
 
 }
