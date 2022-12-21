@@ -2,12 +2,19 @@
 
 /* tablet settings */
 @media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
     .header-links ul li a{
         display: none;
     }
 
     .head-hidden-menu{
         display: block;
+    }
+
+    .col-card-large{
+        flex-direction: column;
     }
     
 }
