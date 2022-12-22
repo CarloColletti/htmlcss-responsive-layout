@@ -29,16 +29,14 @@
     }
 
     .col-block{
-        width: 80%;
+        width: 100%;
         text-align: center;
         justify-content: center;
     }
 
     /* card  */
 
-    .col-card-large{
-        flex-direction: column;
-    }
+    
     
 }
 
@@ -47,21 +45,8 @@
 
 @media screen and (max-width: 480px) {
     /* container  */
-    .container{
-        width: 100%;
-    }
-
-
-
 
     /* header  */
-    .header-links ul li a {
-        display: none;
-    }
-    
-    .head-hidden-menu {
-        display: block;
-    }
 
     /* col main sez 1 */
 
