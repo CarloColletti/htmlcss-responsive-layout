@@ -2,9 +2,16 @@
 
 /* tablet settings */
 @media screen and (max-width: 768px) {
+    
+    /* container  */
     .container{
         width: 100%;
     }
+    .small-container{
+        width: 100%;
+    }
+
+    /* .header */
     .header-links ul li a{
         display: none;
     }
@@ -12,6 +19,20 @@
     .head-hidden-menu{
         display: block;
     }
+
+    /* section 2 */
+    .row-center-block{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .col-block{
+        width: 80%;
+    }
+
+    /* card  */
 
     .col-card-large{
         flex-direction: column;
@@ -27,6 +48,10 @@
     .container{
         width: 100%;
     }
+
+
+
+
     /* header  */
     .header-links ul li a {
         display: none;
@@ -49,7 +74,10 @@
     
 
     /* partners section  */
+    .col-partners{
+        flex-direction: column;
 
+    }
 
     /* about us  */
     
